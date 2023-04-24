@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(217, 54%, 11%)    
+} 
+.apartado-card{
+    display: flex;
+    justify-content: center;
+    border-color: hsl(215, 32%, 27%);
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.sect-img{
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 550px;
+    width: 300px;
+    background-color:hsl(216, 50%, 16%);
+    padding: 1rem;
+    border-radius: 5%;    
+    box-shadow: 10px 5px 5px hsl(215, 65%, 10%);
+    overflow: hidden;    
+}
+.img-eter{
+display: flex;
+position: relative;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+
+.figura{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+}
+.capa{
+    position: absolute;
+    background-color: hsl(178, 100%, 50%);
+    height: 100%;
+    width:100%;
+    border-radius: 6%; 
+    opacity: 0.0;
+}
+
+.capa .view{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%);
+}
+
+.img-avatar{
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.info-img{
+    display: inline-flex;
+    justify-content: space-between;
+    font-family: 'Outfit', sans-serif;
+    flex-wrap: wrap;
+    
+}
+
+.sec-fig{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.eterum{
+    display: inline-flex;
+    align-items: start;
+}
+.sec-description{
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descripcion-et{
+font-size: 13px;
+font-family: 'Outfit', sans-serif;
+align-content: center;
+color: hsl(178, 100%, 50%);
+font-weight:bold
+}
+.sec-creador{
+    font-size: 13px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.texto-img{
+    color: hsl(215, 51%, 70%);
+}
+.text-contador{
+    color:hsl(228, 45%, 44%);
+    font-weight:inherit;
+}
+.referencia{
+    color: white;
+    text-decoration: none;
+}
+.equil{
+    font-family: 'Outfit', sans-serif;
+    color:white;
+    font-weight:bold;
+}
+hr{
+    color: hsl(215, 32%, 27%);
+}
+.equil:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.referencia:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer; 
+}
+
+.capa:hover{
+    opacity: 0.5;
+}
+
+@media(max-width:426px){
+.apartado-card{
+    padding: 10px;
+}
+
+hr{
+    color: hsl(215, 32%, 27%);
+}
+}
